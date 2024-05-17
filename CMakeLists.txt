@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 2.4)
-cmake_policy(SET CMP0004 OLD)
+project(csm)
+# cmake_policy(SET CMP0004 OLD)
 SET(local_prefix "local_config/local-")
 FIND_PROGRAM(HOSTNAME hostname PATHS $ENV{PATH})
 IF(HOSTNAME)
